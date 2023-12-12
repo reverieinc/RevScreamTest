@@ -3,8 +3,9 @@
 
 target 'RevScreamTest' do
   # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
   pod 'Starscream', '~> 4.0.6'
-
   # Pods for RevScreamTest
 
   #target 'RevScreamTestTests' do
@@ -15,8 +16,9 @@ end
 
 target 'RevScreamTestExample' do
   # Comment the next line if you don't want to use dynamic frameworks
-  pod 'Starscream', '~> 4.0.6'
+  use_frameworks!
 
+  pod 'Starscream', '~> 4.0.6'
   # Pods for RevScreamTestExample
 
 end

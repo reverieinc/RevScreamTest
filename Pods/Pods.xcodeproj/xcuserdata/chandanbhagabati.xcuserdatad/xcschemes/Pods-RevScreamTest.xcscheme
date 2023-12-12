@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7340E925ACDE4493D1BA63E20F97915F"
-               BuildableName = "libPods-RevScreamTest.a"
+               BuildableName = "Pods_RevScreamTest.framework"
                BlueprintName = "Pods-RevScreamTest"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

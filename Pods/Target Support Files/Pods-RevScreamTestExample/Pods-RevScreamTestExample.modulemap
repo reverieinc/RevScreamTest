@@ -1,4 +1,4 @@
-module Pods_RevScreamTestExample {
+framework module Pods_RevScreamTestExample {
   umbrella header "Pods-RevScreamTestExample-umbrella.h"
 
   export *

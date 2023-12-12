@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		231BCF27EFFDCA3EF6E025E4 /* libPods-RevScreamTestExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BE4A83E7ED43ADE3131B4B /* libPods-RevScreamTestExample.a */; };
-		8DF9F065948B84A582866DF4 /* libPods-RevScreamTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF5F0C9216FE3F4F8E12498 /* libPods-RevScreamTest.a */; };
+		843CD640690A677ABCC6FDA3 /* Pods_RevScreamTestExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEC540B7CA0518728D99678 /* Pods_RevScreamTestExample.framework */; };
 		94DD00BC2B284EBF006162E7 /* RevScreamTest.docc in Sources */ = {isa = PBXBuildFile; fileRef = 94DD00BB2B284EBF006162E7 /* RevScreamTest.docc */; };
 		94DD00C22B284EBF006162E7 /* RevScreamTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD00B72B284EBF006162E7 /* RevScreamTest.framework */; };
 		94DD00C72B284EBF006162E7 /* RevScreamTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD00C62B284EBF006162E7 /* RevScreamTestTests.swift */; };
@@ -19,6 +18,8 @@
 		94DD00DF2B284FD4006162E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DD00DD2B284FD4006162E7 /* Main.storyboard */; };
 		94DD00E12B284FD7006162E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DD00E02B284FD7006162E7 /* Assets.xcassets */; };
 		94DD00E42B284FD7006162E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DD00E22B284FD7006162E7 /* LaunchScreen.storyboard */; };
+		94DD00EA2B2856D1006162E7 /* RevWssMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD00E92B2856D1006162E7 /* RevWssMain.swift */; };
+		D9459D2C159AC54F38914E1D /* Pods_RevScreamTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE90E43589C3DCE0AA5662D4 /* Pods_RevScreamTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		2EDDB2622C88512B9ABCDAB2 /* Pods-RevScreamTestExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevScreamTestExample.debug.xcconfig"; path = "Target Support Files/Pods-RevScreamTestExample/Pods-RevScreamTestExample.debug.xcconfig"; sourceTree = "<group>"; };
-		2FF5F0C9216FE3F4F8E12498 /* libPods-RevScreamTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RevScreamTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DDD903A03ABD76AFEF3AE3 /* Pods-RevScreamTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevScreamTest.debug.xcconfig"; path = "Target Support Files/Pods-RevScreamTest/Pods-RevScreamTest.debug.xcconfig"; sourceTree = "<group>"; };
 		94DD00B72B284EBF006162E7 /* RevScreamTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RevScreamTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DD00BA2B284EBF006162E7 /* RevScreamTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevScreamTest.h; sourceTree = "<group>"; };
@@ -48,8 +48,10 @@
 		94DD00E02B284FD7006162E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94DD00E32B284FD7006162E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94DD00E52B284FD7006162E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DD00E92B2856D1006162E7 /* RevWssMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevWssMain.swift; sourceTree = "<group>"; };
+		AE90E43589C3DCE0AA5662D4 /* Pods_RevScreamTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RevScreamTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F1C1AA470C04F15D8B72C0 /* Pods-RevScreamTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevScreamTest.release.xcconfig"; path = "Target Support Files/Pods-RevScreamTest/Pods-RevScreamTest.release.xcconfig"; sourceTree = "<group>"; };
-		D9BE4A83E7ED43ADE3131B4B /* libPods-RevScreamTestExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RevScreamTestExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEC540B7CA0518728D99678 /* Pods_RevScreamTestExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RevScreamTestExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6462471661DF69A6BE535BB /* Pods-RevScreamTestExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevScreamTestExample.release.xcconfig"; path = "Target Support Files/Pods-RevScreamTestExample/Pods-RevScreamTestExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF9F065948B84A582866DF4 /* libPods-RevScreamTest.a in Frameworks */,
+				D9459D2C159AC54F38914E1D /* Pods_RevScreamTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				231BCF27EFFDCA3EF6E025E4 /* libPods-RevScreamTestExample.a in Frameworks */,
+				843CD640690A677ABCC6FDA3 /* Pods_RevScreamTestExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +86,8 @@
 		2263522E6BC6253B5EEC73BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2FF5F0C9216FE3F4F8E12498 /* libPods-RevScreamTest.a */,
-				D9BE4A83E7ED43ADE3131B4B /* libPods-RevScreamTestExample.a */,
+				AE90E43589C3DCE0AA5662D4 /* Pods_RevScreamTest.framework */,
+				EBEC540B7CA0518728D99678 /* Pods_RevScreamTestExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,7 +100,6 @@
 				2EDDB2622C88512B9ABCDAB2 /* Pods-RevScreamTestExample.debug.xcconfig */,
 				F6462471661DF69A6BE535BB /* Pods-RevScreamTestExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,6 +130,7 @@
 			children = (
 				94DD00BA2B284EBF006162E7 /* RevScreamTest.h */,
 				94DD00BB2B284EBF006162E7 /* RevScreamTest.docc */,
+				94DD00E92B2856D1006162E7 /* RevWssMain.swift */,
 			);
 			path = RevScreamTest;
 			sourceTree = "<group>";
@@ -214,6 +216,7 @@
 				94DD00D12B284FD4006162E7 /* Sources */,
 				94DD00D22B284FD4006162E7 /* Frameworks */,
 				94DD00D32B284FD4006162E7 /* Resources */,
+				184748C0D6D5FD052B98EB27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,6 +296,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		184748C0D6D5FD052B98EB27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RevScreamTestExample/Pods-RevScreamTestExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RevScreamTestExample/Pods-RevScreamTestExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RevScreamTestExample/Pods-RevScreamTestExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1DD11C217FC835A427EA76BE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94DD00EA2B2856D1006162E7 /* RevWssMain.swift in Sources */,
 				94DD00BC2B284EBF006162E7 /* RevScreamTest.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -509,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -536,6 +557,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,6 +590,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +611,7 @@
 		94DD00CF2B284EBF006162E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 939MAQ67NY;
@@ -604,6 +628,7 @@
 		94DD00D02B284EBF006162E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 939MAQ67NY;
