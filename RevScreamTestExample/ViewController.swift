@@ -6,12 +6,16 @@
 //
 
 import UIKit
+import RevScreamTest
 
 class ViewController: UIViewController {
 
+    var revwss = RevWssMain()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        revwss.TestResponse()
     }
 
 
