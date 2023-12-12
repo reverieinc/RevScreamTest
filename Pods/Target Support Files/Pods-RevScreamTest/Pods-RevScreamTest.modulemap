@@ -1,0 +1,6 @@
+module Pods_RevScreamTest {
+  umbrella header "Pods-RevScreamTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

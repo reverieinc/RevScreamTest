@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231BCF27EFFDCA3EF6E025E4 /* libPods-RevScreamTestExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BE4A83E7ED43ADE3131B4B /* libPods-RevScreamTestExample.a */; };
+		8DF9F065948B84A582866DF4 /* libPods-RevScreamTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF5F0C9216FE3F4F8E12498 /* libPods-RevScreamTest.a */; };
 		94DD00BC2B284EBF006162E7 /* RevScreamTest.docc in Sources */ = {isa = PBXBuildFile; fileRef = 94DD00BB2B284EBF006162E7 /* RevScreamTest.docc */; };
 		94DD00C22B284EBF006162E7 /* RevScreamTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD00B72B284EBF006162E7 /* RevScreamTest.framework */; };
 		94DD00C72B284EBF006162E7 /* RevScreamTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD00C62B284EBF006162E7 /* RevScreamTestTests.swift */; };
@@ -30,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EDDB2622C88512B9ABCDAB2 /* Pods-RevScreamTestExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevScreamTestExample.debug.xcconfig"; path = "Target Support Files/Pods-RevScreamTestExample/Pods-RevScreamTestExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2FF5F0C9216FE3F4F8E12498 /* libPods-RevScreamTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RevScreamTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DDD903A03ABD76AFEF3AE3 /* Pods-RevScreamTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevScreamTest.debug.xcconfig"; path = "Target Support Files/Pods-RevScreamTest/Pods-RevScreamTest.debug.xcconfig"; sourceTree = "<group>"; };
 		94DD00B72B284EBF006162E7 /* RevScreamTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RevScreamTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DD00BA2B284EBF006162E7 /* RevScreamTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevScreamTest.h; sourceTree = "<group>"; };
 		94DD00BB2B284EBF006162E7 /* RevScreamTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RevScreamTest.docc; sourceTree = "<group>"; };
@@ -43,6 +48,9 @@
 		94DD00E02B284FD7006162E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94DD00E32B284FD7006162E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94DD00E52B284FD7006162E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F1C1AA470C04F15D8B72C0 /* Pods-RevScreamTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevScreamTest.release.xcconfig"; path = "Target Support Files/Pods-RevScreamTest/Pods-RevScreamTest.release.xcconfig"; sourceTree = "<group>"; };
+		D9BE4A83E7ED43ADE3131B4B /* libPods-RevScreamTestExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RevScreamTestExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6462471661DF69A6BE535BB /* Pods-RevScreamTestExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevScreamTestExample.release.xcconfig"; path = "Target Support Files/Pods-RevScreamTestExample/Pods-RevScreamTestExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF9F065948B84A582866DF4 /* libPods-RevScreamTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +74,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231BCF27EFFDCA3EF6E025E4 /* libPods-RevScreamTestExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2263522E6BC6253B5EEC73BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FF5F0C9216FE3F4F8E12498 /* libPods-RevScreamTest.a */,
+				D9BE4A83E7ED43ADE3131B4B /* libPods-RevScreamTestExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B150103AA1D7C4ADBFFD8DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81DDD903A03ABD76AFEF3AE3 /* Pods-RevScreamTest.debug.xcconfig */,
+				D5F1C1AA470C04F15D8B72C0 /* Pods-RevScreamTest.release.xcconfig */,
+				2EDDB2622C88512B9ABCDAB2 /* Pods-RevScreamTestExample.debug.xcconfig */,
+				F6462471661DF69A6BE535BB /* Pods-RevScreamTestExample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		94DD00AD2B284EBF006162E7 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +109,8 @@
 				94DD00C52B284EBF006162E7 /* RevScreamTestTests */,
 				94DD00D62B284FD4006162E7 /* RevScreamTestExample */,
 				94DD00B82B284EBF006162E7 /* Products */,
+				5B150103AA1D7C4ADBFFD8DC /* Pods */,
+				2263522E6BC6253B5EEC73BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94DD00CB2B284EBF006162E7 /* Build configuration list for PBXNativeTarget "RevScreamTest" */;
 			buildPhases = (
+				1DD11C217FC835A427EA76BE /* [CP] Check Pods Manifest.lock */,
 				94DD00B22B284EBF006162E7 /* Headers */,
 				94DD00B32B284EBF006162E7 /* Sources */,
 				94DD00B42B284EBF006162E7 /* Frameworks */,
@@ -176,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94DD00E62B284FD7006162E7 /* Build configuration list for PBXNativeTarget "RevScreamTestExample" */;
 			buildPhases = (
+				E71071CBB4B3A333A4DE3013 /* [CP] Check Pods Manifest.lock */,
 				94DD00D12B284FD4006162E7 /* Sources */,
 				94DD00D22B284FD4006162E7 /* Frameworks */,
 				94DD00D32B284FD4006162E7 /* Resources */,
@@ -256,6 +291,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DD11C217FC835A427EA76BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RevScreamTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E71071CBB4B3A333A4DE3013 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RevScreamTestExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94DD00B32B284EBF006162E7 /* Sources */ = {
@@ -441,6 +523,7 @@
 		};
 		94DD00CC2B284EBF006162E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DDD903A03ABD76AFEF3AE3 /* Pods-RevScreamTest.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -472,6 +555,7 @@
 		};
 		94DD00CD2B284EBF006162E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F1C1AA470C04F15D8B72C0 /* Pods-RevScreamTest.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -535,6 +619,7 @@
 		};
 		94DD00E72B284FD7006162E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDDB2622C88512B9ABCDAB2 /* Pods-RevScreamTestExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -563,6 +648,7 @@
 		};
 		94DD00E82B284FD7006162E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6462471661DF69A6BE535BB /* Pods-RevScreamTestExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
